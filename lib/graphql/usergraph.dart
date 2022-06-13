@@ -1,4 +1,4 @@
-final documentNodeUser = """
+const documentNodeUser = """
 query User(\$id: String){
   user(id: \$id) {
     id
