@@ -78,7 +78,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   if (data == null) return const Text("Loading...");
 
                   return Text(
-                      data.stats?.data?.distance.toString() ?? "No Data");
+                    data.stats?.data?.distance.toString() ?? "No Data",
+                  );
                 },
               ),
             ),
@@ -104,7 +105,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   if (data == null) return const Text("Loading...");
 
                   return Text(
-                      data.stats?.data?.distance.toString() ?? "No Data");
+                    data.stats?.data?.distance.toString() ?? "No Data",
+                  );
                 },
               ),
             ),
@@ -128,7 +130,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   if (data == null) return const Text("Loading...");
 
                   return Text(
-                      data.stats?.data?.distance.toString() ?? "No Data");
+                    data.stats?.data?.distance.toString() ?? "No Data",
+                  );
                 },
               ),
             ),
@@ -154,7 +157,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   if (data == null) return const Text("Loading...");
 
                   return Text(
-                      data.stats?.data?.distance.toString() ?? "No Data");
+                    data.stats?.data?.distance.toString() ?? "No Data",
+                  );
                 },
               ),
             ),
